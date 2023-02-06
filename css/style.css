@@ -27,9 +27,13 @@ header nav ul li{
 header nav ul li a{
     text-decoration: none;
     color: rgb(222, 236, 248);
-
+    transition: transform .2s;
+ 
+    transform: scale(10.5); 
     
 }
+
+
 
 
 header h1{
@@ -44,11 +48,19 @@ body{
     background-color: black;
     font: optional;color: aliceblue;
     font-family: Tahoma;
+    
    
 }
 
 main img{
     text-align: center;
+    transform: translate(1.5px);
+}
+nav{
+    background: linear-gradient(to top, rgb(252, 82, 82), black);
+    
+
+    
 }
 
 li{
