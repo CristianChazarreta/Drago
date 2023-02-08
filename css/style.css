@@ -110,7 +110,7 @@ main div img{
 }
 
 main div h3{
-    background-color: rgb(245, 163, 55);
+    background: linear-gradient(to top, rgb(252, 0, 0), black);
 }
 
 /* estilo de contacto */ 
