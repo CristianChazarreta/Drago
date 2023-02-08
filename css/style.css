@@ -110,8 +110,12 @@ main div img{
 }
 
 main div h3{
-    background: linear-gradient(to top, rgb(252, 0, 0), black);
+    background: linear-gradient(to top, rgb(248, 103, 103), black);
 }
 
-/* estilo de contacto */ 
+section p{
+    width: 1200rn;
+    height: 1px;
+    justify-content:center ;
+}
 
