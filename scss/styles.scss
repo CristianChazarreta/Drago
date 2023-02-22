@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+/* estilos de home*/
+
+ 
+header{
+    padding: 10px;
+    text-align: center;
+}
+header .imgp .grid{
+    
+    grid-template-columns: 300px;
+    grid-template-rows: 100px;
+}
+
+
+
+header nav ul{
+    list-style: none;
+
+ }
+
+header nav ul li{
+    display: inline-block;
+    margin: 2px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: rgb(222, 236, 248);
+    transition: transform .2s;
+    transform: scale(10.5); 
+    
+}
+
+header section p{
+    text-align: center;
+    font-size: small;
+}
+
+
+header h1{
+    text-align: center;
+    font-style: inherit;
+    font-size: 50px;
+}
+header h2{
+    text-align: center;
+    font-size:small;
+    font-style: italic;
+}
+
+
+body{
+    background-color: black;
+    font: optional;color: aliceblue;
+    font-family: Tahoma;
+        
+    }
+
+main img{
+    display: grid;
+    grid-row: span 1;
+    object-fit: cover;
+    width: 490px;
+    height: 600px;
+    margin: auto;
+}
+nav{
+    background: linear-gradient(to top, rgb(174, 22, 22), black);
+    
+
+    
+}
+
+li{
+    display: inline-block;
+    position: static;
+ }
+
+
+div p{
+    padding: 25px;
+    background-color: rgba(143, 143, 143, 0.096);
+    display: grid;
+   
+}
+
+
+footer{
+font-style: italic;
+background: linear-gradient(to top, rgb(174, 22, 22), black);
+text-align: right;
+
+}
+
+
+/* estilos de nosotros */ 
+
+div h2{
+    padding: 25px;
+}
+
+.parrafonosotros{ 
+    margin: 15px;
+
+    padding: 25px;
+
+}
+
+
+/* estilo de servicios */
+
+main div div{
+    display: inline-block;
+    margin: 50px;
+}
+
+main div img{
+    size: 15px;
+    margin-left: 40 px;
+}
+
+main div h3{
+    background: linear-gradient(to top, rgb(174, 22, 22), black);
+    
+}
+
+section p{
+    width: 1200rn;
+    height: 1px;
+    justify-content:center ;
+}
+
+
+.imgp{
+    grid-template-columns: (1);
+    grid-template-rows: 50% ;
+}
+
+/* media queries */ 
+
+@media screen and (max-width: 600px) {
+    body{
+        background: linear-gradient(to top, rgb(96, 10, 10), black);
+        }
+
+}
+
+@media screen and (max-width: 480px) {
+    body{
+        background-color: black ;
+        }
+
+}
