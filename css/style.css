@@ -41,9 +41,9 @@ header nav ul li a{
     
 }
 
-header section .p{
+header section p{
     text-align: center;
-    font-size: medium;
+    font-size: small;
 }
 
 
@@ -54,6 +54,8 @@ header h1{
 }
 header h2{
     text-align: center;
+    font-size:small;
+    font-style: italic;
 }
 
 
@@ -61,6 +63,8 @@ body{
     background-color: black;
     font: optional;color: aliceblue;
     font-family: Tahoma;
+        
+    }
     
    
 }
@@ -72,6 +76,8 @@ main img{
     height: 100%;
     object-fit:cover;
     display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: max-content;
 }
 nav{
     background: linear-gradient(to top, rgb(174, 22, 22), black);
@@ -143,4 +149,20 @@ section p{
 .imgp{
     grid-template-columns: (1);
     grid-template-rows: 50% ;
+}
+
+/* media queries */ 
+
+@media screen and (max-width: 500px) {
+    body{
+        background: linear-gradient(to top, rgb(96, 10, 10), black);
+        }
+
+}
+
+@media screen and (max-width: 480px) {
+    body{
+        background-color: black ;
+        }
+
 }
