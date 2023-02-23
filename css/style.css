@@ -13,7 +13,6 @@ header nav ul {
 
 header nav ul li {
   display: inline-block;
-  margin: 2px;
   text-align: center;
   font-weight: bold; }
 
@@ -45,11 +44,9 @@ body {
 
 main img .imgp {
   display: grid;
-  grid-row: span 1;
-  object-fit: cover;
+  object-fit: contain;
   width: 490px;
-  height: 600px;
-  margin-right: 15%; }
+  height: 600px; }
 
 nav {
   background: linear-gradient(to top, #ae1616, black); }
@@ -80,11 +77,11 @@ div h2 {
 /* estilo de servicios */
 main div div {
   display: inline-block;
-  margin: 50px;
   text-align: center; }
 
 main div h3 {
-  background: linear-gradient(to top, #ae1616, black); }
+  background: linear-gradient(to top, #ae1616, black);
+  text-align: center; }
 
 section p {
   width: 1200rn;
@@ -92,17 +89,19 @@ section p {
   justify-content: center; }
 
 /* media queries */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 450px) {
   body {
     background: linear-gradient(to top, #282626, black); }
   main img {
-    width: 459px;
-    height: 330px;
-    object-fit: contain;
-    display: grid;
-    grid-template-columns: span 1;
-    grid-template-rows: span 1; } }
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    text-align: center; } }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 650px) {
   body {
-    background-color: #530c0c; } }
+    background-color: #530c0c; }
+  main img {
+    width: 390px;
+    height: 390px;
+    object-fit: contain; } }

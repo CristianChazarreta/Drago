@@ -21,8 +21,7 @@ header nav ul{
  }
 
 header nav ul li{
-    display: inline-block;
-    margin: 2px;
+    display:inline-block;
     text-align: center;
     font-weight: bold;
 
@@ -63,11 +62,9 @@ body{
 
 main img .imgp{
     display: grid;
-    grid-row: span 1;
-    object-fit: cover;
+    object-fit: contain;
     width: 490px;
     height: 600px;
-    margin-right: 15%;
 }
 nav{
     background: linear-gradient(to top, rgb(174, 22, 22), black);
@@ -116,12 +113,12 @@ text-align: center;
 
 main div div{
     display: inline-block;
-    margin: 50px;
     text-align: center;
 }
 
 main div h3{
     background: linear-gradient(to top, rgb(174, 22, 22), black);
+    text-align: center;
     
 }
 
@@ -134,25 +131,31 @@ section p{
 
 /* media queries */ 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 450px) {
     body{
         background: linear-gradient(to top, rgb(40, 38, 38), black);
         }
     main{
         img{
-            width: 459px;
-            height: 330px;
-            object-fit: contain;
-            display: grid;
-            grid-template-columns: span 1;
-            grid-template-rows: span 1;
-            
+            width: 400px;
+            height: 300px;
+            object-fit: cover;
+            text-align: center; 
+                      
         }
     }    
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 650px) {
     body{
         background-color: rgb(83, 12, 12) ;
         }
+    main{
+            img{
+                width: 390px;
+                height: 390px;
+                object-fit: contain;
+                
+        }
+    }
 }
