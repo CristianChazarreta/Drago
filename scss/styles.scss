@@ -1,3 +1,5 @@
+@import "variables/vars"
+
 *{
     margin: 0;
     padding: 0;
@@ -59,7 +61,7 @@ header h2{
 
 
 body{
-    background-color: black;
+    background-color: $color-principal;
     font: optional;color: aliceblue;
     font-family: Tahoma;
         
