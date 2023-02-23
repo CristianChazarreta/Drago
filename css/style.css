@@ -47,7 +47,7 @@ body {
   color: aliceblue;
   font-family: Tahoma; }
 
-main img {
+main .imgp {
   display: grid;
   grid-row: span 1;
   object-fit: cover;
@@ -96,10 +96,6 @@ section p {
   width: 1200rn;
   height: 1px;
   justify-content: center; }
-
-.imgp {
-  grid-template-columns: 1;
-  grid-template-rows: 50%; }
 
 /* media queries */
 @media screen and (max-width: 600px) {

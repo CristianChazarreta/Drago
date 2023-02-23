@@ -65,7 +65,7 @@ body{
         
     }
 
-main img{
+main .imgp{
     display: grid;
     grid-row: span 1;
     object-fit: cover;
@@ -110,7 +110,7 @@ div h2{
 
 .parrafonosotros{ 
     margin: 15px;
-
+text-align: center;
     padding: 25px;
 
 }
@@ -121,6 +121,7 @@ div h2{
 main div div{
     display: inline-block;
     margin: 50px;
+    text-align: center;
 }
 
 main div img{
@@ -140,10 +141,7 @@ section p{
 }
 
 
-.imgp{
-    grid-template-columns: (1);
-    grid-template-rows: 50% ;
-}
+
 
 /* media queries */ 
 
@@ -151,6 +149,18 @@ section p{
     body{
         background: linear-gradient(to top, rgb(96, 10, 10), black);
         }
+    
+    main{    .imgp{
+        padding: 15px
+        margin-left: 15%;
+        margin-right: 15%;
+        height: 40px;
+        object-fit: cover;
+
+        
+        }
+    }    
+
 
 }
 
@@ -158,5 +168,4 @@ section p{
     body{
         background-color: black ;
         }
-
 }
