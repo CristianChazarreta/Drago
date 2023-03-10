@@ -99,13 +99,20 @@ footer {
   text-shadow: 2px 3px 5px #f70404;
   color: #ffffff; }
 
-.productos {
+.mp {
   display: grid;
   grid-auto-flow: column dense;
   grid-auto-rows: 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   gap: 2px 4px; }
+  .mp img {
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin: auto;
+    padding: auto;
+    border-radius: 15px; }
 
 h3 {
   font-weight: 200; }
@@ -195,21 +202,40 @@ body {
     text-shadow: 2px 4px 5px #eb2929;
     color: #ffffff; }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   body {
     background: linear-gradient(to top, black, black); }
   main img {
-    width: 325px;
-    height: 400px;
-    text-align: center; }
-  main .productos {
-    display: inline-block; }
+    width: 275px;
+    height: 300px;
+    text-align: center;
+    display: block; }
+  main .imgp {
+    width: 275px;
+    height: 300px;
+    display: block;
+    margin: auto;
+    padding: auto; }
   main .servicios {
-    display: inline-block; } }
+    display: inline-block; }
+    main .servicios img {
+      width: 275px;
+      height: 300px;
+      display: block;
+      margin: auto;
+      padding: auto; } }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 200px) {
   body {
     background: linear-gradient(to top, black, black); }
+  main .mp {
+    display: inline-block; }
+    main .mp img {
+      width: 275px;
+      height: 300px;
+      display: block;
+      margin: auto;
+      padding: auto; }
   main img {
     width: 625px;
     height: 500px;

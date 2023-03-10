@@ -82,27 +82,62 @@ h3{
     color: #ffffff;}}
 
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 500px) {
         body{
             background: linear-gradient(to top, rgb(0, 0, 0), black);
             }
         main{
+
+           
+
             img{
-                width: 325px;
-                height: 400px;
+                width: 275px;
+                height: 300px;
                 text-align: center; 
+                display: block;
                           
             }
-            .productos{display: inline-block;}
-            .servicios{display: inline-block;}
-        }    
-      }
+            .imgp{
+                    width: 275px;
+                    height: 300px;
+                    display: block;
+                    margin: auto;
+                    padding: auto;
+                
+            }
+          
+            .servicios{
+                display: inline-block;
+                img{
+                    width: 275px;
+                    height: 300px;
+                    display: block;
+                    margin: auto;
+                    padding: auto;
+                }
+            }       }
+       
+        }
 
-      @media screen and (min-width: 375px) {
+
+
+        
+
+      @media screen and (min-width: 200px) {
         body{
             background: linear-gradient(to top, rgb(0, 0, 0), black);
             }
         main{
+            .mp{
+                display: inline-block;
+                img{
+                    width: 275px;
+                    height: 300px;
+                    display: block;
+                    margin: auto;
+                    padding: auto;
+                }
+            }
             img{
                 width: 625px;
                 height: 500px;
