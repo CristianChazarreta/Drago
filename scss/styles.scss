@@ -1,161 +1,129 @@
-
-
-*{
-    margin: 0;
+*{  margin: 0;
     padding: 0;
-    box-sizing: border-box ;
-}
-@import "variables/vars";
+    box-sizing: border-box ;}
+  
+    @import "variables/vars";
+    @import "html/contacto";
+    @import "html/nosotros";
+    @import "html/productos";
+    @import "html/servicios";
 
-/* estilos de home*/
+  /* estilos de home*/
+  
+  header{
+    padding: 7px;
+    text-align: center; 
+    nav{
+        background: linear-gradient(to top, #ff0101be, rgba(0, 0, 0, 0.801)); ul{ li{ 
+                background: linear-gradient(to top, #ff0101be, rgba(0, 0, 0, 0.801));
+                text-align: center;
+                display: inline-block;
+                a{  font-weight: 600;
+                    text-decoration: none;
+                    color: rgb(245, 237, 237);
+                    text-transform: uppercase;
+                    padding: 15px;
 
- 
-header{
-    padding: 10px;
-    text-align: center;
-}
+                }
 
-header nav ul{
-    list-style: none;
+                }}}
+    nav{ul{li:hover{
+        background: #5e0909;
 
- }
-
-header nav ul li{
-    display:inline-block;
-    text-align: center;
-    font-weight: bold;
-
-}
-
-header nav ul li a{
-    text-decoration: none;
-    color: rgb(243, 238, 238);
-    transition: transform .2s;
-    transform: scale(10.5); 
+    }}}}
+    div{h1 {
+        font-family: 'Anton', sans-serif;
+        font-size: 90px;
+        text-transform: uppercase;
+        font-weight: 600;
+        text-shadow: 2px 4px 5px #eb2929;
+        color: aliceblue;
+    }
+    h2{
+        font-size: 45;
+        font-family: 'Anton', sans-serif;
+        text-shadow: #eb2929;
+        color: #7c7c7c;
+    }
     
-}
+}    
+main{ img{
+    height: 450px;
+    width: 650px;
+    display: grid; 
+    grid-auto-flow: column dense; 
+    grid-template-columns: 0.5fr 0.5fr; 
+    grid-template-rows: 0.5fr; 
+    gap: 0px 0px; 
+    display: inline-block;}
+    
+   }
 
-header section p{
-    text-align: center;
-    font-size: small;
-}
-
-
-header h1{
-    text-align: center;
-    font-style: inherit;
-    font-size: 50px;
-}
-header h2{
-    text-align: center;
-    font-size:small;
-    font-style: italic;
-}
-
-
-body{
+   body{
     background-color: $color-principal;
-    font: optional;color: aliceblue;
-    font-family: Tahoma;
-        
+    justify-content: center;
+    .parrafohome  {
+        color: #eeeeee;
+        height: 120px;
+        width: 120px;
+        display: grid; 
+        grid-auto-flow: column dense; 
+        grid-template-columns: 0.5fr 0.5fr; 
+        grid-template-rows: 0.5fr; 
+        gap: 0px 0px; 
+        display: inline-block;
+       
+      
     }
-
-main img .imgp{
-    display: grid;
-    object-fit: contain;
-    width: 490px;
-    height: 600px;
-}
-nav{
-    background: linear-gradient(to top, rgb(174, 22, 22), black);
-    
-
-    
-}
-
-li{
-    display: inline-block;
-    position: static;
- }
+h3{
+    font-size: 45;
+    font-family: 'Anton', sans-serif;
+    text-shadow: 2px 4px 5px #eb2929;
+    color: #ffffff;}}
 
 
-div p{
-    padding: 25px;
-    background-color: rgba(143, 143, 143, 0.096);
-    display: grid;
-   
-}
-
-
-footer{
-font-style: italic;
-background: linear-gradient(to top, rgb(174, 22, 22), black);
-text-align: right;
-
-}
-
-
-/* estilos de nosotros */ 
-
-div h2{
-    padding: 25px;
-}
-
-.parrafonosotros{ 
-    margin: 15px;
-text-align: center;
-    padding: 25px;
-
-}
-
-
-/* estilo de servicios */
-
-main div div{
-    display: inline-block;
-    text-align: center;
-}
-
-main div h3{
-    background: linear-gradient(to top, rgb(174, 22, 22), black);
-    text-align: center;
-    
-}
-
-section p{
-    width: 1200rn;
-    height: 1px;
-    justify-content:center ;
-}
-
-
-/* media queries */ 
-
-@media screen and (max-width: 450px) {
-    body{
-        background: linear-gradient(to top, rgb(40, 38, 38), black);
-        }
-    main{
-        img{
-            width: 400px;
-            height: 300px;
-            object-fit: cover;
-            text-align: center; 
-                      
-        }
-    }    
-}
-
-@media screen and (max-width: 650px) {
-    body{
-        background-color: rgb(18, 13, 13) ;
-        }
-    main{
+    @media screen and (max-width: 600px) {
+        body{
+            background: linear-gradient(to top, rgb(0, 0, 0), black);
+            }
+        main{
             img{
-                width: 390px;
-                height: 390px;
-                object-fit: contain;
+                width: 325px;
+                height: 400px;
+                text-align: center; 
+                          
+            }
+            .productos{display: inline-block;}
+            .servicios{display: inline-block;}
+        }    
+      }
+
+      @media screen and (min-width: 375px) {
+        body{
+            background: linear-gradient(to top, rgb(0, 0, 0), black);
+            }
+        main{
+            img{
+                width: 625px;
+                height: 500px;
+                object-fit: cover;
+                text-align: center; 
+                          
+            }
+            .parrafohome{ font-family: 'Anton', sans-serif;
+                font-size: 20px;
+                font-weight: 100;
+                text-shadow: 2px 3px 5px #5c5c5c;
+                color: #fdfdfd;
                 
-        }
-    }
-}
+            }
+
+            .datos{
+                img{
+                    width: 315px;
+                    height: 315px;
+                }
+            }
+        }    
+      }
+    

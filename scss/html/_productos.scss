@@ -1,0 +1,32 @@
+
+
+    .tituloproductos{
+
+        h1{
+            font-family: 'Anton', sans-serif;
+            font-size: 60px;
+            text-transform: uppercase;
+            font-weight: 600;
+            text-shadow: 2px 3px 5px #f70404;
+            color: #ffffff;
+          }
+    }
+
+    .productos{
+        
+        display: grid; 
+        grid-auto-flow: column dense; 
+        grid-auto-rows: 1fr; 
+        grid-template-columns: 1fr 1fr 1fr; 
+        grid-template-rows: 1fr 1fr 1fr; 
+        gap: 2px 4px; 
+
+        }
+
+        h3{
+            font-weight: 200;
+        
+        }
+            
+
+          

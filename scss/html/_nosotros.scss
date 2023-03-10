@@ -1,0 +1,37 @@
+.logonosotros{
+    display: grid; 
+    grid-auto-flow: column dense; 
+    grid-auto-rows: 1fr; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 0.5fr;
+    display: inline-block;
+  h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-shadow: 2px 3px 5px #f70404;
+    color: #ffffff;
+  }
+
+
+}
+
+
+.mainnosotros{
+background-color: #000000;
+font-family:Verdana, Geneva, Tahoma, sans-serif ;
+text-align: center;
+
+}
+
+.parrafonosotros{
+   font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    text-shadow: 2px 3px 5px #000000;
+    color: #ffffff;
+    background-color: #292929;
+    border-radius: 15px;
+    padding: 15px;
+}
