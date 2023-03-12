@@ -82,9 +82,10 @@ h3{
     color: #ffffff;}}
 
 
-    @media screen and (max-width: 500px) {
+    @media screen and (max-width: 300px) {
         body{
             background: linear-gradient(to top, rgb(0, 0, 0), black);
+            
             }
         main{
 
@@ -94,28 +95,33 @@ h3{
                 width: 275px;
                 height: 300px;
                 text-align: center; 
-                display: block;
+                display: inline-block;
+                margin: auto;
+                padding: auto;
                           
             }
             .imgp{
-                    width: 275px;
+                    width: 200px;
                     height: 300px;
-                    display: block;
+                    display: inline-block;
                     margin: auto;
                     padding: auto;
+                    
                 
             }
           
             .servicios{
                 display: inline-block;
                 img{
-                    width: 275px;
-                    height: 300px;
+                    width: 205px;
+                    height: 250px;
                     display: block;
                     margin: auto;
                     padding: auto;
+                    display: inline-block;
                 }
-            }       }
+            }      
+         }
        
         }
 
@@ -123,7 +129,7 @@ h3{
 
         
 
-      @media screen and (min-width: 200px) {
+      @media screen and (min-width: 390px) {
         body{
             background: linear-gradient(to top, rgb(0, 0, 0), black);
             }
@@ -131,11 +137,13 @@ h3{
 
 
             .imgp{
-                width: 275px;
-                height: 300px;
-                display: block;
+                width: 575px;
+                height: 500px;
+                display: inline-block;
                 margin: auto;
                 padding: auto;
+
+                
             
         }
             .servicios{
@@ -158,6 +166,8 @@ h3{
                     display: block;
                     margin: auto;
                     padding: auto;
+                    
+                    
                 }
             }
             img{
@@ -183,4 +193,5 @@ h3{
             }
         }    
       }
-    
+   
+     
