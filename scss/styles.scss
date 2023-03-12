@@ -128,6 +128,28 @@ h3{
             background: linear-gradient(to top, rgb(0, 0, 0), black);
             }
         main{
+
+
+            .imgp{
+                width: 275px;
+                height: 300px;
+                display: block;
+                margin: auto;
+                padding: auto;
+            
+        }
+            .servicios{
+                display: inline-block;
+                img{
+                    width: 275px;
+                    height: 300px;
+                    display: block;
+                    margin: auto;
+                    padding: auto;
+                }
+            }
+
+
             .mp{
                 display: inline-block;
                 img{
