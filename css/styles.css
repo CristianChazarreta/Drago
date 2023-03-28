@@ -206,18 +206,20 @@ body {
   body {
     background: linear-gradient(to top, black, black); }
   main img {
-    width: 275px;
-    height: 300px;
+    width: 205px;
+    height: 250px;
     text-align: center;
     display: inline-block;
     margin: auto;
     padding: auto; }
   main .imgp {
-    width: 200px;
-    height: 300px;
+    width: 205px;
+    height: 250px;
+    text-align: center;
     display: inline-block;
     margin: auto;
-    padding: auto; }
+    padding: auto;
+  }
   main .servicios {
     display: inline-block; }
     main .servicios img {
