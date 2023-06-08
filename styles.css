@@ -166,3 +166,14 @@ p {
 .boton-eliminar:focus {
     outline: none;
 }
+
+nav{
+    background-color: rgb(152, 207, 255);
+    text-decoration: none;
+    background: linear-gradient(to top, #38c1f7be, rgba(87, 141, 241, 0.801));
+    color: rgb(112, 3, 3);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+    
+}
