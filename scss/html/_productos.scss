@@ -8,7 +8,7 @@
             text-transform: uppercase;
             font-weight: 600;
             text-shadow: 2px 3px 5px #f70404;
-            color: #ffffff;
+            color: #fdfdfd;
           }
     }
 
@@ -29,10 +29,22 @@
             border-radius: 15px;
         }
         }
+        p{
+            background-color: #000000;
+            color: #fdfdfd;
+            font-family: 'Anton', sans-serif;
+        }
 
         h3{
             font-weight: 200;
         
+        }
+        .producto{
+            max-width: 20%;
+            padding: 10px;
+            margin: 10px;
+            margin-bottom: 20px;
+            box-shadow: 2px 6px 3px 3px rgb(255, 255, 255);
         }
             
 
