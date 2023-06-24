@@ -176,14 +176,14 @@ div h1 {
   font-size: 90px;
   text-transform: uppercase;
   font-weight: 600;
-  text-shadow: 2px 4px 5px #eb2929;
-  color: aliceblue; }
+  text-shadow: 3px 4px 5px #f8f8f8;
+  color: rgba(224, 4, 4, 0.76); }
 
 div h2 {
   font-size: 45;
   font-family: 'Anton', sans-serif;
   text-shadow: #eb2929;
-  color: #7c7c7c; }
+  color: #e6d4d4; }
 
 main img {
   height: 450px;
@@ -224,16 +224,16 @@ body {
     display: inline-block;
     margin: auto;
     padding: auto; }
-  main .imgp {
+  .imgp {
     width: 205px;
     height: 250px;
     text-align: center;
     display: inline-block;
-    margin: auto;
-    padding: auto; }
-  main .servicios {
+    margin: 10px;
+    padding: 10px; }
+  .servicios {
     display: inline-block; }
-    main .servicios img {
+    .servicios img {
       width: 205px;
       height: 250px;
       display: block;
@@ -241,15 +241,16 @@ body {
       padding: auto;
       display: inline-block; } }
 
-@media screen and (min-width: 390px) {
+@media screen and (min-width: 133px) {
   body {
     background: linear-gradient(to top, black, black); }
   main .imgp {
-    width: 575px;
-    height: 500px;
+    width: 400px;
+    height: 300px;
     display: inline-block;
     margin: auto;
-    padding: auto; }
+    padding: 15px;
+    border-radius: 35px; }
   main .servicios {
     display: inline-block; }
     main .servicios img {
@@ -276,7 +277,10 @@ body {
     font-size: 20px;
     font-weight: 100;
     text-shadow: 2px 3px 5px #5c5c5c;
-    color: #fdfdfd; }
+    color: #faf5f5;
+    text-align: center;
+    height: 470px;
+    width: 470px; }
   main .datos img {
     width: 315px;
     height: 315px; } }
